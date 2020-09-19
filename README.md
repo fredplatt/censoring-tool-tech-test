@@ -4,6 +4,22 @@ Profanity Filter by Fred Platt
 
 ## Installation
 
+### Installing from github
+
+Clone the repository:
+```bash
+git clone git@github.com:fredplatt/fplatt-censor-test.git
+```
+From there, build the image with the following docker command:
+```bash
+docker build -t devfredplatt/fplatt-censor-test . 
+```
+This then enables you to run the image with:
+```bash
+docker run -p 8080:8080 -d devfredplatt/fplatt-censor-test
+```
+
+
 ### Installing from an archive
 
 Extract the archive to a directory of your choice. 
@@ -16,6 +32,7 @@ This then enables you to run the image with:
 ```bash
 docker run -p 8080:8080 -d devfredplatt/fplatt-censor-test
 ```
+
 ### Installing from dockerhub repository
 Pull the repository:
 ```bash
