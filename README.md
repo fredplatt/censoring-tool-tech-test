@@ -53,6 +53,10 @@ If running commands from same location as file, just the filename is required an
 ### NPM alternative
 This application can be run without docker. To start, simply run:
 ```bash
+npm install
+```
+followed by:
+```bash
 npm run build && npm run start
 ```
 and then you can edit the txt files manually, the filtering function will still re-run on each change detected.
